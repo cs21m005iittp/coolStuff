@@ -77,7 +77,7 @@ function showQuote() {
   clearAll();
   //const randomMemeUrl = getRandomData('memes');
    var p = document.createElement('p');
-            p.textContent = randomQuote.quote +   "-"+randomQuote.author;
+            p.textContent = randomQuote.quote +   "    -"+randomQuote.author;
   const container=document.querySelector(".quote-container");
   {
     container.appendChild(p);
